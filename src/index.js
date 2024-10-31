@@ -35,7 +35,7 @@ initAPIs(app)
 // );
 
 // chọn một port mà bạn muốn và sử dụng để chạy ứng dụng tại local
-const port = 8080
+const port = 3001
 app.listen(port, () => {
   console.log(`Hello longnn.dev, I'm running at localhost:${port}/`)
 }) 

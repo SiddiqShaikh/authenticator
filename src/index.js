@@ -1,4 +1,4 @@
-import "dotenv/config";
+// import "dotenv/config";
 import cors from "cors";
 import express from "express";
 
@@ -35,7 +35,7 @@ initAPIs(app)
 // );
 
 // chọn một port mà bạn muốn và sử dụng để chạy ứng dụng tại local
-const port = 3000
+const port = 8080
 app.listen(port, () => {
   console.log(`Hello longnn.dev, I'm running at localhost:${port}/`)
 }) 
